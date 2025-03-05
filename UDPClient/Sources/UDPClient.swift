@@ -47,7 +47,7 @@ extension UDPClientImpl: UDPClient {
         print("Client: started")
     }
     
-    /// Starts the UDP client
+    /// Stops the UDP client
     func stop() {
         connection.cancel()
         print("Client: stopped")
